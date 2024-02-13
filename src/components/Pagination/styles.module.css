@@ -1,0 +1,36 @@
+.pagination {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNumber, .arrow {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pageNumber:disabled , 
+.arrow:disabled {
+    cursor: default;
+}
+
+.pageNumber {
+    padding: 8px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pageNumber:hover{
+    font-size: 16px;
+}
+.arrow:hover {
+    font-size: 16px;
+}
