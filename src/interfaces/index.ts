@@ -30,7 +30,7 @@ export interface IPaginationProps {
   handlePreviousPage: () => void,
   handleNextPage: () => void,
   handlePageClick: (page: number) => void,
-  currentPage : number,
+  currentPage : number, 
 }
 
 export interface IFilters {
